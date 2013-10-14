@@ -1,4 +1,4 @@
-% This file was created with JabRef 2.6.
+% This file was created with JabRef 2.9b2.
 % Encoding: Cp1252
 
 @BOOK{Oksendal2003,
@@ -726,6 +726,67 @@
   owner = {pb404},
   publisher = {Wiley Online Library},
   timestamp = {2010.11.05}
+}
+
+@ARTICLE{Bunch2013,
+  author = {Bunch, P. and Godsill, S.},
+  title = {Particle Smoothing Algorithms for Variable Rate Models},
+  journal = {Signal Processing, IEEE Transactions on},
+  year = {2013},
+  volume = {61},
+  pages = {1663-1675},
+  number = {7},
+  abstract = {Standard state-space methods assume that the latent state evolves
+	uniformly over time, and can be modeled with a discrete-time process
+	synchronous with the observations. This may be a poor representation
+	of some systems in which the state evolution displays discontinuities
+	in its behavior. For such cases, a variable rate model may be more
+	appropriate; the system dynamics are conditioned on a set of random
+	changepoints which constitute a marked point process. In this paper,
+	new particle smoothing algorithms are presented for use with conditionally
+	linear-Gaussian and conditionally deterministic dynamics. These are
+	demonstrated on problems in financial modelling and target tracking.
+	Results indicate that the smoothing approximations provide more accurate
+	and more diverse representations of the state posterior distributions.},
+  doi = {10.1109/TSP.2013.2243443},
+  file = {Bunch2013.pdf:Bunch2013.pdf:PDF},
+  issn = {1053-587X},
+  keywords = {discrete time systems;smoothing methods;target tracking;conditionally
+	linear-Gaussian dynamics;conditionally-deterministic dynamics;discrete-time
+	process;financial modelling;latent state;marked point process;particle
+	smoothing algorithm;standard state-space method;state posterior distributions;system
+	dynamics;target tracking;variable rate model;Approximation methods;Hidden
+	Markov models;IEEE transactions;Signal processing;Signal processing
+	algorithms;Smoothing methods;Standards;Bayesian inference;filtering;particle
+	filter;smoothing;state-space model;variable rate},
+  owner = {pb404},
+  timestamp = {2013.08.27}
+}
+
+@INPROCEEDINGS{Bunch2013a,
+  author = {Pete Bunch and Simon Godsill},
+  title = {Particle Filtering with Progressive Gaussian Approximations to the
+	Optimal Importance Density},
+  booktitle = {2013 5th IEEE International Workshop on Computational Advances in
+	Multi-Sensor Adaptive Processing (CAMSAP) (CAMSAP 2013)},
+  year = {2013},
+  address = {Saint Martin, French West Indies, France},
+  month = dec,
+  abstract = {A new algorithm, the composite proposal particle filter, is introduced.
+	The performance of a standard particle filter is highly dependent
+	on the choice of importance density used to propagate the particles
+	through time. The conditional posterior state density is the optimal
+	choice, but this can rarely be calculated analytically or sampled
+	from exactly. Practical particle filters rely on forming approximations
+	to the optimal importance density, frequently using Gaussian distributions,
+	but these are not always effective in highly nonlinear models. The
+	composite proposal method introduces the effect of each observation
+	gradually and incrementally modifies the particle states so as to
+	achieve an improved approximation to the optimal importance distribution.},
+  days = {15},
+  keywords = {particle filtering; importance density;},
+  owner = {pb404},
+  timestamp = {2013.10.08}
 }
 
 @ARTICLE{Bunch2012,
@@ -4103,6 +4164,30 @@
   timestamp = {2012.09.25}
 }
 
+@ARTICLE{Lindsten2011,
+  author = {Lindsten, F. and Sch{\"o}n, T.B.},
+  title = {Efficient Particle Markov Chain Monte Carlo-Bayesian inference with
+	a couple of particles},
+  journal = {arXiv preprint arXiv:1110.2873},
+  year = {2011},
+  file = {Lindsten2011.pdf:Lindsten2011.pdf:PDF},
+  owner = {pb404},
+  timestamp = {2012.09.25}
+}
+
+@INPROCEEDINGS{Lindsten2011b,
+  author = {Lindsten, F. and Sch{\"o}n, T.B. and Olsson, J.},
+  title = {An explicit variance reduction expression for the Rao-Blackwellised
+	particle filter},
+  booktitle = {Proceedings of the 18th World Congress of the International Federation
+	of Automatic Control (IFAC)(accepted for publication), Milan, Italy},
+  year = {2011},
+  pages = {74},
+  file = {Lindsten2011b.pdf:Lindsten2011b.pdf:PDF},
+  owner = {pb404},
+  timestamp = {2012.12.18}
+}
+
 @INPROCEEDINGS{Lindsten2012,
   author = {Lindsten, F. and Sch\"{o}n and, T.B.},
   title = {On the use of backward simulation in the particle Gibbs sampler},
@@ -4137,30 +4222,6 @@
 	filtering (numerical methods);sampling methods;state-space methods;},
   owner = {pb404},
   timestamp = {2012.09.25}
-}
-
-@ARTICLE{Lindsten2011,
-  author = {Lindsten, F. and Sch{\"o}n, T.B.},
-  title = {Efficient Particle Markov Chain Monte Carlo-Bayesian inference with
-	a couple of particles},
-  journal = {arXiv preprint arXiv:1110.2873},
-  year = {2011},
-  file = {Lindsten2011.pdf:Lindsten2011.pdf:PDF},
-  owner = {pb404},
-  timestamp = {2012.09.25}
-}
-
-@INPROCEEDINGS{Lindsten2011b,
-  author = {Lindsten, F. and Sch{\"o}n, T.B. and Olsson, J.},
-  title = {An explicit variance reduction expression for the Rao-Blackwellised
-	particle filter},
-  booktitle = {Proceedings of the 18th World Congress of the International Federation
-	of Automatic Control (IFAC)(accepted for publication), Milan, Italy},
-  year = {2011},
-  pages = {74},
-  file = {Lindsten2011b.pdf:Lindsten2011b.pdf:PDF},
-  owner = {pb404},
-  timestamp = {2012.12.18}
 }
 
 @ARTICLE{Liu1998,
@@ -4364,6 +4425,16 @@
   owner = {pb404},
   timestamp = {2011.01.14},
   url = {http://arxiv.org/abs/1101.0955}
+}
+
+@UNPUBLISHED{Marques2013,
+  author = {Marques, Reinaldo and Storvik, Geir},
+  title = {Particle move-reweighting schemes for online {B}ayesian inference},
+  note = {http://www.norges-bank.no/pages/90907/Marquez.pdf},
+  year = {2013},
+  file = {Marques2013.pdf:Marques2013.pdf:PDF},
+  owner = {pb404},
+  timestamp = {2013.09.11}
 }
 
 @ARTICLE{Martin2012,
@@ -5104,6 +5175,40 @@
 	signal processing;digital filters;direction-of-arrival estimation;tracking;},
   owner = {pb404},
   timestamp = {2011.02.04}
+}
+
+@INPROCEEDINGS{Oudjane2000,
+  author = {Oudjane, N. and Musso, C.},
+  title = {Progressive correction for regularized particle filters},
+  booktitle = {Information Fusion, 2000. FUSION 2000. Proceedings of the Third International
+	Conference on},
+  year = {2000},
+  volume = {2},
+  pages = {THB2/10-THB2/17 vol.2},
+  abstract = {Particle methods have been recently proposed to deal with the nonlinear
+	filtering problem. These are Monte Carlo methods that can provide
+	a nonparametric approximation to the signal conditional distribution
+	even in nonlinear and non Gaussian cases, without depending on the
+	state space dimension. We present a new version of regularized particle
+	filter using a progressive correction (PC) principle which improves
+	the approximation, in introducing a decreasing sequence of (fictitious)
+	matrices for the observation noise. This method is applied to the
+	multisensor tracking problem (radar and IR sensor) and compared to
+	the classical regularized particle filter and the EKF.},
+  doi = {10.1109/IFIC.2000.859873},
+  file = {Oudjane2000.pdf:Oudjane2000.pdf:PDF},
+  keywords = {Monte Carlo methods;error correction;nonlinear filters;radar tracking;sensor
+	fusion;EKF;IR sensor;Monte Carlo methods;classical regularized particle
+	filter;decreasing sequence;fictitious matrices;multisensor tracking
+	problem;non Gaussian cases;nonlinear filtering problem;nonparametric
+	approximation;observation noise;particle methods;progressive correction;progressive
+	correction principle;radar;regularized particle filter;regularized
+	particle filters;signal conditional distribution;state space dimension;Density
+	measurement;Distributed computing;Filtering;Infrared sensors;Kernel;Particle
+	filters;Particle measurements;Particle tracking;Probability distribution;Random
+	variables},
+  owner = {pb404},
+  timestamp = {2013.10.02}
 }
 
 @INCOLLECTION{Pang2011,
@@ -6450,5 +6555,7 @@
 	tracking;Vectors}
 }
 
-@comment{jabref-meta: fileDirectory:D:\\pb404\\Dropbox\\PhD\\Papers;}
+@comment{jabref-meta: fileDirectory:/home/pete/Dropbox/PhD/Papers;}
+
+@comment{jabref-meta: pdfDirectory:D:\\pb404\\Dropbox\\PhD\\Papers;}
 
